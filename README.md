@@ -32,9 +32,9 @@ The folder "Federated_Learning"  contains the following pythons scripts:
 
 **generating_submission_file.py**: Python script used to generate throughput prediction file(FederationS_final.csv), saved in subfolder “results”. 
 
-**requirements.txt **: Recording of used python packages.
+**requirements.txt**: Recording of used python packages.
 
-Before running the scripts unzip **cleaned_dataset.zip ** . The neural network we used to generate the predictions is subfolder “trained_anns”.
+Before running the scripts unzip **cleaned_dataset.zip** . The neural network we used to generate the predictions is subfolder “trained_anns”.
 
 ## Team
 
