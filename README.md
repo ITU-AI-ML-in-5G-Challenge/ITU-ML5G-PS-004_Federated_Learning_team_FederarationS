@@ -1,6 +1,6 @@
 # FederationS: Federated Learning for Spatial Reuse in a multi-BSS (Basic Service Set)scenario 
 
-This repository contains the team FederationS solution for the [ITU-ML5G-PS-004](https://www.upf.edu/web/wnrg/2021-edition) challenge. 
+This repository contains the team FederationS solution, report, and presentation for the [ITU-ML5G-PS-004](https://www.upf.edu/web/wnrg/2021-edition) challenge. 
 
 ## Overview
 
@@ -13,26 +13,24 @@ The python notebooks contain the data analysis the pre-processing of the synthet
 
 ## Data Analysis, Data Preparation, and Centralised Solution
 
-**Data_analysis.ipynb**: 
+**Data_analysis_and_Central_solution.ipynb**: This notebook contains initial data analysis and central solution.
 
-**Central_model.ipynb**:
+**Preparing_training_dataset.ipynb**:  This notebook generates pickle file containing training dataset(train.pkl). The pickle file is used as an input in our main training script!
 
-**Preparing_test_dataset.ipynb**:
-
-**Preparing_training_dataset.ipynb**:
+**Preparing_test_dataset.ipynb**: This notebook generates pickle file containing test dataset(test.pkl). The pickle file is used as an input in our main training script!
 
 
 ## Federated Learning Solution
 
 The folder "Federated_Learning"  contains the following pythons scripts:
 
-**main.py**:
+**main.py**: The main training script for the Federated Learning Solution.
 
-**federated_learning_agent.py**:
+**federated_learning_agent.py**: This python file contains support functions for the federated learning agent used in the main.py.
 
-**preparing_data.py**:
+**preparing_data.py**: This python file contains functions related to data preparation used in main.py script.
 
-**generating_submission_file.py**: The script used to generate throughput prediction file(FederationS_final.csv), saved in subfolder “results”. 
+**generating_submission_file.py**: Python script used to generate throughput prediction file(FederationS_final.csv), saved in subfolder “results”. 
 
 **requirements.txt **: Recording of used python packages.
 
